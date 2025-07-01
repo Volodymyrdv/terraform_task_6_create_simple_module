@@ -18,7 +18,7 @@ provider "azurerm" {
 module "resource_group_storage" {
   source               = "Volodymyrdv/resource_group_storage/azurerm"
   version              = "1.0.0"
-  location             = "Poland Central"
+  location             = "polandcentral"
   resource_group_name  = "rg-storage"
   storage_account_name = "valodya33"
 }
